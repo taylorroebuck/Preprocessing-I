@@ -189,7 +189,7 @@ nav a {
   color: black;
   margin: 10px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   nav {
     background-color: #FFDAB9;
     width: 80%;
@@ -222,7 +222,7 @@ header .ContactMeBtn {
   font-size: 2rem;
   border-radius: 8px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header {
     display: flex;
     justify-content: center;
@@ -267,7 +267,7 @@ header .ContactMeBtn {
   align-content: flex-start;
   background-color: white;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   .main-content {
     display: flex;
     flex-direction: row;
@@ -297,7 +297,7 @@ header .ContactMeBtn {
   display: flex;
   flex-direction: row;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   #work-history {
     padding-left: 2%;
   }
@@ -318,7 +318,7 @@ header .ContactMeBtn {
   text-decoration: underline;
   color: black;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   #contact {
     padding: 3%;
   }
