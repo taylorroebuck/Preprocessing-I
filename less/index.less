@@ -101,6 +101,7 @@ body {
 img {
 	width: 40%;
 	height: auto;
+	border: 2px solid black;
 }
 
 p {
@@ -235,6 +236,14 @@ header {
 	p {
 		.row();
 	}
+
+	@media @mobile {
+		padding-left: 2%;
+
+		p{
+		font-size: 1.5rem;
+		}
+	}/*closes out of media query*/
 }/*closes out work history section*/
 
 #contact {
@@ -250,4 +259,13 @@ header {
 		text-decoration: underline;
 		color: black;
 	}
-}
+
+	@media @mobile {
+		padding: 3%;
+
+		h3 {
+			font-size: 1.9rem;
+		}
+	}
+
+}/*closes out contact section*/

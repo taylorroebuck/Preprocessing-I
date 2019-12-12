@@ -167,6 +167,7 @@ body {
 img {
   width: 40%;
   height: auto;
+  border: 2px solid black;
 }
 p {
   line-height: 1.25;
@@ -290,10 +291,19 @@ header .ContactMeBtn {
   background-color: skyblue;
   width: 80%;
   border: 2px dashed black;
+  /*closes out of media query*/
 }
 #work-history p {
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 515px) {
+  #work-history {
+    padding-left: 2%;
+  }
+  #work-history p {
+    font-size: 1.5rem;
+  }
 }
 /*closes out work history section*/
 #contact {
@@ -308,3 +318,12 @@ header .ContactMeBtn {
   text-decoration: underline;
   color: black;
 }
+@media (max-width: 515px) {
+  #contact {
+    padding: 3%;
+  }
+  #contact h3 {
+    font-size: 1.9rem;
+  }
+}
+/*closes out contact section*/
