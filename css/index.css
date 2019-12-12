@@ -214,3 +214,32 @@ header .ContactMeBtn {
   border-radius: 8px;
 }
 /*closes header section*/
+.main-content {
+  display: flex;
+  flex-direction: column;
+  background: #FFDAB9;
+  width: 80%;
+}
+.main-content #Intro div {
+  padding: 2%;
+  margin: 2%;
+  width: 45%;
+}
+.main-content #Skills {
+  padding: 2%;
+  margin: 2%;
+  width: 45%;
+  align-content: flex-start;
+  background-color: white;
+}
+/*closes main content section*/
+#work-history {
+  padding: 2%;
+  background-color: skyblue;
+  width: 80%;
+}
+#work-history p {
+  display: flex;
+  flex-direction: row;
+}
+/*closes out work history section*/

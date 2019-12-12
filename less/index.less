@@ -59,6 +59,7 @@ table {
 @big-text-font: 'Lobster Two', monospace;
 @main-font: 'Roboto Mono', monospace;
 @main-color: #FFDAB9;
+@secondary-color: skyblue;
 
 .center(){
 	display: flex;
@@ -122,7 +123,7 @@ nav {
 }/*closes nav section*/
 
 header {
-	background-color: skyblue;
+	background-color: @secondary-color;
 	width: 80%;
 	padding: 2%;
 	.column();
@@ -144,6 +145,36 @@ header {
 		height: 45px;
 		font-size: 2rem;
 		border-radius: 8px;
-	}
-	
+	}	
 }/*closes header section*/
+
+.main-content {
+	.column();
+	background: @main-color;
+	width: 80%;
+	
+	#Intro div{
+		padding: 2%;
+		margin: 2%;
+		width: 45%;
+	}
+
+	#Skills{
+		padding: 2%;
+		margin: 2%;
+		width: 45%;
+		align-content: flex-start;
+		background-color: white;
+	}
+}/*closes main content section*/
+
+#work-history {
+		padding: 2%;
+		
+		background-color: @secondary-color;
+		width: 80%;
+
+	p {
+		.row();
+	}
+}/*closes out work history section*/
